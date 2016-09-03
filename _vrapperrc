@@ -1,0 +1,18 @@
+set smartcase	" 대문자가 검색어 문자열에 포함될 때에는 noignorecase
+set ignorecase
+set hlsearch " 검색 word 하이라이트 
+set incsearch
+set shiftwidth=2
+set expandtab
+set tabstop=4
+
+set autochdir
+set contentassistmode
+
+inoremap <esc> :noh<return><esc> " 하이라이트 후 esc로 없애기
+
+" ESC 대용
+inoremap jk <Esc>
+inoremap kj <Esc>
+inoremap ㅓㅏ <Esc>
+inoremap ㅏㅓ <Esc>
