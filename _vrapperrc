@@ -1,6 +1,8 @@
 set smartcase	" 대문자가 검색어 문자열에 포함될 때에는 noignorecase
 set ignorecase
-set hlsearch " 검색 word 하이라이트 
+
+" 검색 word 하이라이트 
+set hlsearch 
 set incsearch
 set shiftwidth=2
 set expandtab
@@ -9,7 +11,8 @@ set tabstop=4
 set autochdir
 set contentassistmode
 
-inoremap <esc> :noh<return><esc> " 하이라이트 후 esc로 없애기
+" ESC로 하이라이트 지우기
+nnoremap <esc> :noh<return><esc>
 
 " ESC 대용
 inoremap jk <Esc>
