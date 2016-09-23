@@ -30,9 +30,6 @@ inoremap ㅏㅓ <Esc>
 nnoremap vv vawy
 nnoremap vV vaWy
 
-"커서를 마지막 수정부분으로 이동
-nnoremap <Space>q :GotoLastEditPosition<CR>
-
 "빈 줄 삽입
 nnoremap <Space>o o<ESC>j 
 
