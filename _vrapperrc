@@ -35,3 +35,9 @@ nnoremap <Space>o o<ESC>j
 
 "단어삭제 후 insert
 nnoremap <Space>d diwi
+
+"줄 끝으로 이동
+nnoremap <Space>e $
+
+"줄 앞으로 이동
+nnoremap <Space>f ^
